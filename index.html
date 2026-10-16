@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brick Swarm</title>
+<meta name="description" content="Brick Swarm: one ball becomes thousands. A brick breaker for Android and iOS. No ads, ever.">
+<link rel="icon" href="icon.png">
+<style>
+  :root {
+    --ground: #fff4e6;
+    --text: #3b1f4a;
+    --hint: #7a5c86;
+    --accent: #ff4f7b;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #1b1238;
+      --text: #fff4e6;
+      --hint: #cfc3e8;
+      --accent: #ff7a9c;
+    }
+  }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: var(--ground);
+    color: var(--text);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    text-align: center;
+  }
+  main { padding: 32px 16px; max-width: 520px; }
+  img { width: 128px; height: 128px; border-radius: 28px; }
+  h1 { font-size: 40px; margin: 16px 0 0; }
+  .tagline { color: var(--hint); margin: 4px 0 24px; font-size: 19px; }
+  a { color: var(--accent); }
+  nav { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; }
+</style>
+</head>
+<body>
+<main>
+  <img src="icon.png" alt="Brick Swarm icon">
+  <h1>Brick Swarm</h1>
+  <p class="tagline">One ball becomes thousands. No ads, ever.</p>
+  <nav>
+    <a href="privacy/">Privacy Policy</a>
+    <a href="mailto:acse.uok@gmail.com">Contact</a>
+  </nav>
+</main>
+</body>
+</html>
